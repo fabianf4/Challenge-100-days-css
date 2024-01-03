@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #43399f, #4dc4c9);
+  width: 100%;
+  height: 100%;
+}
+
+.card__number {
+  height: 110px;
+  width: 60%;
+  position: relative;
+}
+
+.card__number-one-1 {
+  position: absolute;
+  height: 110px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 3px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  left: 17px;
+}
+
+.card__number-one-2 {
+  position: absolute;
+  height: 40px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 3px;
+  z-index: 100;
+  rotate: 45deg;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.card__number-zero {
+  position: absolute;
+  height: 110px;
+  width: 110px;
+  border: 25px solid #fff;
+  left: 38px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 500;
+}
+
+.card__number-zero--2 {
+  left: 130px;
+  z-index: 200;
+}
+
+.card__days {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 60px;
+}
+
+.card__text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+}
