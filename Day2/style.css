@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.burgerMenu__container:hover {
+  cursor: pointer;
+}
+
 .burgerMenu__line-1,
 .burgerMenu__line-2,
 .burgerMenu__line-3 {
