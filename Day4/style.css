@@ -1,0 +1,89 @@
+:root {
+    --speed: cubic-bezier(.21, .98, .6, .99);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #E56262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    position: absolute;
+    height: 0;
+    width: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.one {
+    animation: one 2s var(--speed) infinite alternate;
+}
+
+@keyframes one {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    60% {
+        height: 80px;
+        width: 80px;
+    }
+
+    100% {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.two {
+    animation: two 2s var(--speed) infinite alternate;
+}
+
+@keyframes two {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    30% {
+        height: 0;
+        width: 0;
+    }
+
+    90% {
+        height: 50px;
+        width: 50px;
+    }
+
+    100% {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.three {
+    animation: three 2s var(--speed) infinite alternate;
+}
+
+@keyframes three {
+    0% {
+        height: 0;
+        width: 0;
+    }
+
+    60% {
+        height: 0;
+        width: 0;
+    }
+
+    100% {
+        height: 25px;
+        width: 25px;
+    }
+}
